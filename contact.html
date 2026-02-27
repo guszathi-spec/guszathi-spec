@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ติดต่อเรา | AurumEstate</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:#f8f8f8;
+    color:#333;
+}
+
+/* HERO */
+.hero{
+    height:60vh;
+    background:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    color:white;
+    text-align:center;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.35);
+}
+
+.hero h1{
+    position:relative;
+    font-size:48px;
+}
+
+/* SECTION */
+.section{
+    max-width:1100px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+/* CONTACT INFO */
+.info{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.info h2{
+    margin-bottom:25px;
+}
+
+.info p{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+/* FORM */
+form{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+input, textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+button{
+    background:#b68d40;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    width:100%;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#8c6b2f;
+}
+
+@media(max-width:768px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>ติดต่อรับข้อมูลโครงการ</h1>
+</section>
+
+<!-- CONTENT -->
+<section class="section">
+    <div class="grid">
+
+        <!-- ข้อมูลติดต่อ -->
+        <div class="info">
+            <h2>ช่องทางติดต่อ</h2>
+            <p>📞 โทร: 099-999-9999</p>
+            <p>💬 Line: @aurumestate</p>
+            <p>📘 Facebook: AurumEstate</p>
+            <p>📸 Instagram: aurum.estate</p>
+            <p>📧 Email: sales@aurumestate.com</p>
+        </div>
+
+        <!-- ฟอร์ม -->
+        <form>
+            <h2>ลงทะเบียนรับข้อมูล</h2>
+            <input type="text" placeholder="ชื่อ-นามสกุล" required>
+            <input type="tel" placeholder="เบอร์โทรศัพท์" required>
+            <input type="email" placeholder="อีเมล">
+            <textarea rows="4" placeholder="ข้อความเพิ่มเติม"></textarea>
+            <button type="submit">ส่งข้อมูล</button>
+        </form>
+
+    </div>
+
+    <div class="center">
+        <a href="index.html" class="btn">กลับหน้าหลัก</a>
+</div>
+<section>
+
+</body>
+</html>

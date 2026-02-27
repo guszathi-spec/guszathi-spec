@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AurumEstate | บ้านเดี่ยว บางนา </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    margin:0;
+    font-size:24px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    background:url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") no-repeat center;
+    background-size:cover;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+
+}
+
+.section{
+    padding:60px 80px;
+}
+
+.section h3{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.card-container{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+    border:1px solid #3b3838;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.price{
+    color:#c49b33;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    color:white;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.35);
+}
+
+.hero-text{
+    position:relative;
+    background:rgba(0,0,0,0.5);
+    padding:40px 70px;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero-text h2{
+    font-size:42px;
+    font-weight:bold;
+}
+/* ===== HERO ===== */
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    color:white;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.35);
+}
+
+.hero-text{
+    position:relative;
+    text-align:center;
+    background:rgba(0,0,0,0.5);
+    padding:40px 70px;
+}
+
+/* ของคุณมีแล้ว */
+.hero-text h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero-text h2{
+    font-size:42px;
+    font-weight:bold;
+}
+.article-section{
+    background:#ffffff;
+    padding:100px 20px;
+}
+
+.article-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.article-container h2{
+    font-size:36px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.article-container p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+    color:#555;
+}
+
+.article-container h3{
+    font-size:26px;
+    margin-top:40px;
+    margin-bottom:15px;
+    color:#b68d40;
+}
+
+.type-box{
+    background:#f8f8f8;
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.type-box h4{
+    font-size:22px;
+    margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    
+    <h1>AurumEstate</h1>
+    <nav>
+        <h1></h1><a href="home">หน้าแรก</a></h1>
+        <a href="project">โครงการ</a>
+        <a href="location.html">ทำเล</a>
+        <a href="contact.html">ติดต่อ</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero" id="home">
+    <div class="hero-text">
+        <h1>AURUM BANGNA</h1>
+        <h2>เริ่ม 15 - 30 ล้านบาท</h2>
+    </div>
+</div>
+   
+</div>
+
+<!-- PROJECT -->
+<div class="section" id="project">
+    <h3>โครงการแนะนำ</h3>
+
+    <div class="card-container">
+
+<!-- ใบที่ 1 -->
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+    <div class="card-content">
+        <h4>AurumEstate Bangna Luxury</h4>
+        <p>บ้านเดี่ยวหรู ใกล้ทางด่วน และ MRT</p>
+        <div class="price">เริ่มต้น 18 ล้านบาท</div>
+        <a href="detail.html" class="btn">ดูรายละเอียด</a>
+    </div>
+</div>
+
+        <!-- ใบที่ 2 -->
+        <div class="card">
+            <img src="https://i.postimg.cc/y8WkDgNC/S-4522002.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Modern Living</h4>
+                <p>ดีไซน์ทันสมัย พื้นที่ใช้สอยกว้างขวาง</p>
+                <div class="price">เริ่มต้น 22 ล้านบาท</div>
+                <a href="bangna-luxury.html" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <!-- ใบที่ 3 -->
+        <div class="card">
+            <img src="https://cdn.phototourl.com/uploads/2026-02-27-c87b0fa2-17f3-448e-bbe1-136ee845e87f.png">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="grand-estate.html" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <style>
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+</style>
+
+                <!-- ใบที่ 4 -->
+        <div class="card">
+            <img src="C:\Users\Admin\Desktop\mypj\S__4521997.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+                <!-- ใบที่ 5 -->
+        <div class="card">
+            <img src="C:\Users\Admin\Desktop\mypj\S__4521998.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+                <!-- ใบที่ 6 -->
+        <div class="card">
+            <img src="file:///C:/Users/Admin/Desktop/mypj/S__4521996.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+                <!-- ใบที่ 7 -->
+        <div class="card">
+            <img src="file:///C:/Users/Admin/Desktop/mypj/S__4521999.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+                <!-- ใบที่ 8 -->
+        <div class="card">
+            <img src="file:///C:/Users/Admin/Desktop/mypj/S__4522000.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+                        <!-- ใบที่ 9 -->
+        <div class="card">
+            <img src="file:///C:/Users/Admin/Desktop/mypj/S__4522001.jpg">
+            <div class="card-content">
+                <h4>AurumEstate Grand Estate</h4>
+                <p>บ้านเดี่ยวระดับพรีเมียม ทำเลศักยภาพ</p>
+                <div class="price">เริ่มต้น 28 ล้านบาท</div>
+                <a href="#contact" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="article-section">
+    <div class="article-container">
+        <h2>ปัจจัยที่ควรดูก่อนซื้อบ้านเดี่ยวสักหลัง</h2>
+
+        <p>
+        การซื้อบ้านเดี่ยวถือเป็นการลงทุนครั้งใหญ่ในชีวิตที่ต้องพิจารณาอย่างรอบคอบ 
+        เพราะนอกจากจะเป็นที่อยู่อาศัยระยะยาว บ้านยังเป็นสินทรัพย์ที่มีมูลค่าสูง 
+        การเลือกซื้อบ้านจึงไม่ใช่เพียงแค่การหาที่อยู่อาศัย 
+        ควรคำนึงถึงปัจจัยสำคัญหลายประการ เพื่อให้ได้บ้านที่ตอบโจทย์การใช้ชีวิตอย่างแท้จริง
+        </p>
+
+        <h3>ราคาบ้านที่เหมาะสม</h3>
+        <p>
+        ก่อนจะตัดสินใจเลือกซื้อบ้าน สิ่งแรกที่ต้องพิจารณาคือ “งบประมาณ” 
+        โดยทั่วไปค่าใช้จ่ายผ่อนบ้านต่อเดือนควรไม่เกิน 30–40% ของรายได้ครัวเรือน 
+        ปัจจุบันตลาดมีตัวเลือกตั้งแต่บ้านเดี่ยวราคา 2–5 ล้านบาท 
+        ไปจนถึงบ้านหรูระดับ 10–100 ล้านบาท
+        </p>
+
+        <h3>ประเภทบ้านเดี่ยวตามไลฟ์สไตล์</h3>
+
+        <div class="type-box">
+            <h4>บ้านเดี่ยว 2 ชั้น</h4>
+            <p>
+            เหมาะสำหรับครอบครัวหลายวัย มีพื้นที่ใช้สอยชัดเจน 
+            มีห้องนอนครบทุกคน พร้อมพื้นที่ส่วนกลางและสนามสำหรับกิจกรรมกลางแจ้ง
+            </p>
+        </div>
+
+        <div class="type-box">
+            <h4>บ้านเดี่ยว 3 ชั้น</h4>
+            <p>
+            เหมาะกับครอบครัวที่ต้องการพื้นที่เพิ่ม สามารถจัดเป็นโฮมออฟฟิศ 
+            ห้องทำงาน หรือพื้นที่ส่วนตัวได้หลากหลาย
+            </p>
+        </div>
+
+        <div class="type-box">
+            <h4>บ้านหรู (Luxury Home)</h4>
+            <p>
+            ตอบโจทย์ความเป็นส่วนตัว ดีไซน์โดดเด่น บนทำเลศักยภาพ 
+            พร้อมสิ่งอำนวยความสะดวกระดับพรีเมียม เพื่อคุณภาพชีวิตที่เหนือระดับ
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<footer>
+    © 2026 AurumEstate Co.,Ltd. All Rights Reserved.
+</footer>
+
+
+</body>
+</html>
+<style> html {
+    scroll-behavior: smooth;
+}</style>
